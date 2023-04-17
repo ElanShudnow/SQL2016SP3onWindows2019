@@ -1,0 +1,48 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "2.0.0.0",
+    "parameters": {
+        "virtualMachineName": {
+            "value": "testvm"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_E16ds_v5"
+        },
+        "existingVnetResourceGroup": {
+            "value": "Networking"
+        },
+        "existingVirtualNetworkName": {
+            "value": "vnet-hub-prod-c-001"
+        },
+        "existingSubnetName": {
+            "value": "servers"
+        },
+        "sqlSku": {
+            "value": "Enterprise"
+        },
+        "adminUsername": {
+            "value": "eshudnow"
+        },
+        "adminPassword": {
+            "value": "W3lcom32023!"
+        },
+        "sqlDataDisksCount": {
+            "value": 3
+        },
+        "dataPath": {
+            "value": "F:\\SQLData"
+        },
+        "sqlLogDisksCount": {
+            "value": 3
+        },
+        "logPath": {
+            "value": "G:\\SQLLog"
+        },
+        "location": {
+            "value": "centralus"
+        },
+        "storageWorkloadType": {
+            "value": "DW"
+        }
+    }
+}
